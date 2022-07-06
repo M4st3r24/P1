@@ -1,0 +1,157 @@
+<!DOCTYPE html>	<!--comentario-->
+<html lang="es">
+	<style>
+	body {
+ 	    background-color: black;
+ 	    display: flex;
+       	flex-wrap: wrap;  
+       	justify-content: center;
+	}
+
+	body > *{
+	    width: 100%;
+	    border-bottom-width: 0;
+	    box-sizing: border-box;
+    }
+
+    header, footer{
+    	min-height: 90px;
+    	background-color: lightgray;
+    }
+
+    header{
+    	width: 100%;
+    	margin: 1%;
+    	text-align: center;
+    	color: white;
+
+    }
+
+    header img{
+    	float: right;
+    }
+
+	h1 {
+  	    font-family: Arial;
+  	    font-size: 50px;
+  	    color: darkred;
+        text-align: center;
+	}
+
+	p {
+  	    font-family: Arial;
+        font-size: 20px;
+        color: ghostwhite;
+	}
+	article{
+		display: flex;
+		width: 70%;
+	}
+	aside{
+		width: 40%;
+		color: floralwhite;
+		display: flex;
+	}
+	aside img{
+		width: 80%;
+		height: 40%;
+		display: flex;
+	}
+	pre{
+		font-family: verdana;
+        font-size: 30px;
+        color: antiquewhite;
+	}
+	div{
+		color: cadetblue;
+		border: 2px solid navajowhite;
+		margin: 20px;
+		padding: 20px;
+	}
+	nav{
+		font-family: arial,helvetica,sans-serif;
+		font-size: 30px;
+		background: darkgray;
+		height: 100%;
+		color: darkred;
+		list-style: none;
+		margin: 15px;
+	}
+	footer{
+		color: darkred;
+		border: 2px solid navajowhite;
+		margin: 20px;
+		padding: 20px;
+		text-align: right;
+		height: 50px;
+		line-height: 25px;
+	}
+	.container .body{
+		width: 30%;
+		color: white;
+		border: 2px solid navajowhite;
+		margin: 20px;
+		padding: 20px;
+		padding-right: 10px;
+		display: flex;
+	}
+	section{
+		display: flex;
+	}
+	.container{
+		display: flex;
+		height: auto;
+	}
+	.article{
+		background-color: mediumvioletred;
+	}
+	.last{
+		margin: 2px;
+		border: 3px;
+		padding-left: 0px;
+		display: flex;
+	}
+	</style>
+	<head>
+		<meta charset="utf-8">
+	    <title>Contacto</title>
+	    <meta name="title" content="Practica 1"
+	    <body>
+	    	<header>
+	    		<h1 align="center" >Contacto</h1>
+	    		<div>
+    				<img align="right" width="100px" height="160px" alt="Spidy" src="Images/spidy.png"><!--Img-->
+    			</div>
+	    	</header>
+    		<nav style="text-align: center;color:darkred;"><!-- Seccion para menus -->
+    			<ul><!--Lista desordenada-->
+    				<li style="display:inline"><a href="contacto.html" style="color:darkred;">Contacto</a></li><!--Elemento de lista-->
+    				<li style="display:inline"><a href="practica1.html" style="color:darkred;">Principal</a></li>
+    				<li style="display:inline" style="color:darkred;">Tres</li>
+    			</ul>
+    		</nav>
+    		
+    		<div class="container" style="display:flex">
+    			<aside> This is an aside
+    				<img alt="Spidy" src="Images/2.jfif">
+    			</aside>
+    			<section class="body">
+		    		<article class="article">
+		    			<h2>This is h2 article</h2>
+		    			<p>This is a p article: "Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. Ut enim ad <br>minim veniam, quis nostrud exercitation ullamco laboris <br>nisi ut aliquip ex ea commodo consequat. Duis aute <br>irure dolor in reprehenderit in voluptate velit esse <br>cillum dolore eu fugiat nulla pariatur. Excepteur sint <br>
+	    				occaecat cupidatat non proident, sunt in culpa qui officia<br> deserunt mollit anim id est laborum."</p>
+	    			</article>
+	    			 			
+    			</section>
+    			<div class="last">
+		    			<article>
+		    				<p>
+								This is an article<br>
+								that i know it<br>
+								but i really don't knowit
+		    				</p>
+		    			</article>
+	    			</div>   
+    		</div>
+    		<footer>@Danyel_Mejía </footer>
+	    </body>
